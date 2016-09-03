@@ -1,0 +1,24 @@
+{
+  "name": "aurelia-form-renderer-bootstrap",
+  "version": "0.0.2",
+  "description": "Skeleton plugin following spoonx conventions.",
+  "keywords": [
+    "aurelia",
+    "spoonx",
+    "plugin"
+  ],
+  "homepage": "https://github.com/SpoonX/aurelia-form-renderer-bootstrap",
+  "main": "dist/commonjs/aurelia-form-renderer-bootstrap.js",
+  "moduleType": "node",
+  "license": "MIT",
+  "author": "SpoonX <info@spoonx.nl>",
+  "contributors": [
+    "doktordirk <doktordirk@outlook.de> (http://spoonx.nl)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpoonX/aurelia-form-renderer-bootstrap"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,1 @@
+export * from 'aurelia-form-renderer-bootstrap/aurelia-form-renderer-bootstrap';

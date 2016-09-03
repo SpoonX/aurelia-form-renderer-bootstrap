@@ -1,0 +1,49 @@
+{
+  "name": "aurelia-form-renderer-bootstrap",
+  "version": "0.0.2",
+  "description": "Skeleton plugin following spoonx conventions.",
+  "keywords": [
+    "aurelia",
+    "spoonx",
+    "plugin"
+  ],
+  "homepage": "https://github.com/SpoonX/aurelia-form-renderer-bootstrap#readme",
+  "main": "dist/commonjs/aurelia-form-renderer-bootstrap.js",
+  "scripts": {
+    "test": "./node_modules/.bin/gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpoonX/aurelia-form-renderer-bootstrap.git"
+  },
+  "author": "SpoonX <info@spoonx.nl>",
+  "contributors": [
+    "doktordirk <doktordirk@outlook.de> (http://spoonx.nl)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpoonX/aurelia-form-renderer-bootstrap/issues"
+  },
+  "jspm": {
+    "registry": "npm",
+    "jspmPackage": true,
+    "main": "aurelia-form-renderer-bootstrap",
+    "format": "amd",
+    "directories": {
+      "dist": "dist/amd"
+    },
+    "devDependencies": {
+      "aurelia-dependency-injection": "^1.0.0",
+      "aurelia-pal-browser": "^1.0.0-rc.1.0.0",
+      "aurelia-polyfills": "^1.0.0-rc.1.0.0"
+    }
+  },
+  "devDependencies": {
+    "spoonx-tools": "^0.1.0"
+  },
+  "aurelia": {
+    "build": {
+      "resources": []
+    }
+  }
+}

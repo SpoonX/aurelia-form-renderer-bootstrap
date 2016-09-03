@@ -1,0 +1,4 @@
+{
+  "name": "aurelia-form-renderer-bootstrap",
+  "main": "dist/aurelia-form-renderer-bootstrap.d.ts"
+}
