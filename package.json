@@ -1,7 +1,7 @@
 {
   "name": "aurelia-form-renderer-bootstrap",
   "version": "0.0.2",
-  "description": "Skeleton plugin following spoonx conventions.",
+  "description": "Bootstrap renderer for aurelia-validation",
   "keywords": [
     "aurelia",
     "spoonx",
@@ -9,9 +9,6 @@
   ],
   "homepage": "https://github.com/SpoonX/aurelia-form-renderer-bootstrap#readme",
   "main": "dist/commonjs/aurelia-form-renderer-bootstrap.js",
-  "scripts": {
-    "test": "./node_modules/.bin/gulp test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SpoonX/aurelia-form-renderer-bootstrap.git"
@@ -19,11 +16,18 @@
   "author": "SpoonX <info@spoonx.nl>",
   "contributors": [
     "doktordirk <doktordirk@outlook.de> (http://spoonx.nl)",
-    "jdanyow <jdanyow@gmail.com> (http://danyow.net)" 
+    "jdanyow <jdanyow@gmail.com> (http://danyow.net)"
   ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SpoonX/aurelia-form-renderer-bootstrap/issues"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp build",
+    "preversion": "npm test",
+    "version": "npm run build && gulp prepare-package && git add -A dist doc/CHANGELOG.md bower.json",
+    "postpublish": "git push upstream master && git push upstream --tags"
   },
   "jspm": {
     "registry": "npm",
@@ -35,12 +39,12 @@
     },
     "devDependencies": {
       "aurelia-dependency-injection": "^1.0.0",
-      "aurelia-pal-browser": "^1.0.0-rc.1.0.0",
-      "aurelia-polyfills": "^1.0.0-rc.1.0.0"
+      "aurelia-pal-browser": "^1.0.0",
+      "aurelia-polyfills": "^1.0.0"
     }
   },
   "devDependencies": {
-    "spoonx-tools": "^0.1.0"
+    "spoonx-tools": "^1.0.0-0"
   },
   "aurelia": {
     "build": {
